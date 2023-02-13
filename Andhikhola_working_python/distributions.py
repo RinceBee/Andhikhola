@@ -38,4 +38,10 @@ df = pd.DataFrame({"Distribution": ["Normal", "Gumbel", "Log-Normal", "Log-Pears
                    "p-value": [np.nan, np.nan, np.nan, np.nan]})
 df.loc[3, ["Kendall's tau", "p-value"]] = tau, p_value
 
-df.to_excel("fit_results.xlsx", index=False)
+
+print (mean, mode, np.exp(mean), mean)
+print(se1, se2, se3, se4)
+print("tau", tau, "p-value",p_value)
+
+
+#f.to_excel("fit_results.xlsx", index=False)
