@@ -21,7 +21,7 @@ months = ["Shrawan", "Bhadra", "Ashwin", "Kartik", "Mangsir", "Poush", "Magh", "
 averages_df.columns = months
 
 # Save the new dataframe to a new Excel file
-#averages_df.to_excel('newfile6.xlsx', index=False, header=True)
+#averages_df.to_excel('newfile8888.xlsx', index=False, header=True)
 
 averages_df = averages_df[["Chaitra", "Baishakh", "Jestha", "Ashadh", "Shrawan", "Bhadra", "Ashwin", "Kartik", "Mangsir", "Poush", "Magh", "Falgun"]]
 averages = averages_df.mean(axis=0)
