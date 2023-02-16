@@ -36,7 +36,7 @@ result_df.columns = months
 
 averages = result_df.mean(axis=0)
 result_df.loc["Average"] = averages
-#result_df.to_excel('Average_monthly_flow_for_all_years_5.xlsx', index=True)
+result_df.to_excel('Average_monthly_flow_for_all_years_888.xlsx', index=True)
 
 result_df = result_df[["Chaitra", "Baishakh", "Jestha", "Ashadh", "Shrawan", "Bhadra", "Ashwin", "Kartik", "Mangsir", "Poush", "Magh", "Falgun", "Fiscal year"]]
 averages = result_df.mean(axis=0)

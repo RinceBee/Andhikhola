@@ -73,7 +73,7 @@ q = mean - params[1] * np.log(-np.log(1/10))
 print("Return period for 1 in 10 years:", q)
 q = mean - params[1] * np.log(-np.log(1/20))
 print("Return period for 1 in 20 years:", q)
-q = mean - params[1] * np.log(-np.log(1/100))
+q = mean - params[1] * np.log(-np.log(100))
 print("Return period for 1 in 100 years:", q)
 
 # Fit a Pearson Type III distribution to the data
